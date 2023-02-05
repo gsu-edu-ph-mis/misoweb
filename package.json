@@ -1,0 +1,25 @@
+{
+  "name": "misoweb",
+  "version": "1.0.0",
+  "description": "MIS Office portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsu-edu-ph-mis/misoweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsu-edu-ph-mis/misoweb/issues"
+  },
+  "homepage": "https://github.com/gsu-edu-ph-mis/misoweb#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "http-server": "^14.1.1",
+    "jquery": "^3.6.3"
+  }
+}

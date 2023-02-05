@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>MISO Portal</title>
+</head>
+<body class="gradient text-white">
+    <div class="container pb-5 pt-3">
+        <div class="row">
+            <div class="col-md-12 pb-5">
+                <header class="text-center">
+                    <img class="mb-3" width="250" src="/images/logo-mis.png" alt="Logo">
+                    <h1 class="h4">Management Information System Office</h1>
+                </header>
+                <div class="d-flex justify-content-center pt-4">
+                    <ul>
+                        <li>Multimedia Services</li>
+                        <li>Data-banking</li>
+                        <li>Technical Support</li>
+                        <li>Systems Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center mb-5 pb-5">
+                <a id="button1" href="#" class="fx-noticemesenpai btn btn-light btn-lg">Get to Know Us</a>
+            </div>
+        </div>
+        <div id="target1" class="row mb-5">
+            <div class="col-md-4">
+                <img class="profile" src="/images/boss-jo.jpg" alt="">
+            </div>
+            <div class="col-md-8 pt-5">
+                <h3 class="h2">Jo Ann Gerada</h3>
+                <p>The exuberant lady director is a long-time faculty member and researcher of the university. She teaches science-related subjects. When at home, she enjoys spending time with her daughter and taking care of her 5 dogs.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-8 pt-4 text-right">
+                <h3 class="h2">Mark Laurence Faigones</h3>
+                <p>A multimedia expert extraordinaire, Mark's content creation skills ranges from static content to cinematic videos and drone shots. He enjoys grinding his running shoes on the road in his spare time.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="profile" src="/images/tito-mark-studios.jpg" alt="">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <img class="profile" src="/images/momi-keish.jpg" alt="">
+            </div>
+            <div class="col-md-8 pt-4">
+                <h3 class="h2">Keisha Dawn Gadian</h3>
+                <p>The rose among the thorns (update: not anymore), Keisha is the bubbly and cheerful person you'll see in our office. When not working, she enjoys watching movies and being a mom.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-8 pt-5 text-right">
+                <h3 class="h2">Nico Amarilla</h3>
+                <p>As a long time programmer working on various computer languages and technologies, he enjoys not looking at his computer during weekends. Unlike the others, he doesnt have a second name.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="profile" src="/images/nico-shop.jpg" alt="">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <img class="profile" src="/images/reiner-cafe.jpg" alt="">
+            </div>
+            <div class="col-md-8 pt-4">
+                <h3 class="h2">Reiner Jun Alminaza</h3>
+                <p>A.k.a. Mr. Congeniality. The former director of MIS is a friendly and generous person. He currently teaches IT-related courses and coordinates extension activities. When not in director mode, he spends his time with his wife and daughter.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-8 pt-5 text-right">
+                <h3 class="h2">Juvy Anne Armonio</h3>
+                <p>The soft-spoken former secretary. Don't be deceived though as she can raise her voice when triggered. When not in Guimaras she spends time in her home-town in Antique.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="profile" src="/images/juvsky.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+        jQuery("#button1").click(function() {
+            jQuery([document.documentElement, document.body]).animate({
+                scrollTop: jQuery("#target1").offset().top
+            },  1000);
+
+            jQuery("#button1").removeClass('fx-noticemesenpai')
+        });
+    </script>
+</body>
+</html>

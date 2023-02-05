@@ -1,0 +1,33 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    color: #4b4b4b;
+    background: #f1f1f1;
+}
+
+body.gradient {
+    background: hsla(95, 47%, 71%, 1);
+    background: linear-gradient(135deg, hsla(95, 47%, 71%, 1) 0%, hsla(168, 41%, 50%, 1) 28%, hsla(184, 62%, 39%, 1) 44%, rgb(37, 117, 182) 54%, hsla(211, 80%, 33%, 1) 100%) fixed;
+}
+
+img.profile {
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+.fx-noticemesenpai {
+    display: inline-block;
+    animation: noticemesenpai 4s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes noticemesenpai {
+    0% { transform:translate(0,0);}
+    25% { transform:translate(0,20px); }
+    50% { transform:translate(0,0px); }
+    75% { transform:translate(0,20px); }
+    100% { transform:translate(0,0);}
+}
