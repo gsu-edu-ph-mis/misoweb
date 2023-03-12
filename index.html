@@ -31,7 +31,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center mb-5 pb-5">
-                <a id="button1" href="#" class="fx-noticemesenpai btn btn-light btn-lg">Get to Know Us</a>
+                <a id="button2" href="#" class="fx-noticemesenpai btn btn-light btn-lg">Get to Know Us</a>
             </div>
         </div>
         <div id="target1" class="row align-items-center mb-5">
@@ -51,7 +51,6 @@
                 <h3 class="h2">Mark Laurence Faigones</h3>
                 <p>A multimedia expert extraordinaire, Mark's content creation skills ranges from static content to cinematic videos and drone shots. He enjoys grinding his running shoes on the road in his spare time.</p>
             </div>
-            
         </div>
         <div class="row align-items-center mb-5">
             <div class="col-md-4 text-center">
@@ -96,14 +95,14 @@
             </div>
         </div>
     </div>
+    <div class="text-center pt-5 pb-1" style="opacity:0.1; font-size: 9px;"><em>* Miso (みそ or 味噌) is a traditional Japanese seasoning. MISO is also the acronym for the MIS Office.</em></div>
     <script src="/js/jquery.min.js"></script>
     <script>
-        jQuery("#button1").click(function() {
+        jQuery(".fx-noticemesenpai").click(function() {
             jQuery([document.documentElement, document.body]).animate({
                 scrollTop: jQuery("#target1").offset().top
             },  1000);
-
-            jQuery("#button1").removeClass('fx-noticemesenpai')
+            jQuery(".fx-noticemesenpai").removeClass('fx-noticemesenpai')
         });
     </script>
 </body>
